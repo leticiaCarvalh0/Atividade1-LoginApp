@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="user_name_text">Usuário</string>
+    <string name="user_name_text_placeholder">Digite seu nome</string>
+    <string name="user_pw_text">Senha</string>
+    <string name="user_pw_text_placeholder">Digite sua senha</string>
+    <string name="button_login">Logar</string>
+    <string name="button_register">Cadastrar</string>
+    <string name="button_forgot_pw">Esqueci a senha</string>
+    <string name="button_forgot_pw_clicked">Botão Esqueci a Senha clicado</string>
+    <string name="take_picture"> Tirar foto</string>
+    <string name="welcome_message">Bem-vindo</string>
+    <string name="invalid_user_or_pw">Usuário ou senha inválidos</string>
+
+</resources>
