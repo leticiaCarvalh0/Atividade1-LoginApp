@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        // Este código intercepta a "foto_result" que você enviou da Welcome
+        // Este código intercepta a "foto_result" da Welcome
         if (resultCode == RESULT_OK && data != null && data.hasExtra("foto_result")) {
             Bitmap foto = (Bitmap) data.getExtras().get("foto_result");
             if (foto != null) {
