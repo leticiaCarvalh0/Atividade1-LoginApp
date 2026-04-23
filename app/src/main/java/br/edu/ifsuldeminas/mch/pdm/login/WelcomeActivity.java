@@ -83,15 +83,15 @@ public class WelcomeActivity extends AppCompatActivity {
                 Bitmap image = (Bitmap) extras.get("data");
                 imageViewPicture.setImageBitmap(image);
 
-                // CRIAMOS A INTENT DE RETORNO
+                // CRIA A INTENT DE RETORNO
                 Intent intentDeRetorno = new Intent();
-                intentDeRetorno.putExtra("foto_result", image); // Para a sua imagem circular
+                intentDeRetorno.putExtra("foto_result", image);
 
-                // IMPORTANTE: O SimpleContract do professor provavelmente espera o nome do usuario de volta também
+               
                 intentDeRetorno.putExtra("resultado", "Foto capturada com sucesso!");
 
                 setResult(Activity.RESULT_OK, intentDeRetorno);
-                finish(); // Agora ele vai fechar e voltar
+                finish(); //  fechar e voltar
             }
         }
     }
